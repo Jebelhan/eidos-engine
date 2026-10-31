@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "title": {
+    "en": "EIDOS Plugin Source",
+    "zh": "EIDOS 插件源"
+  },
+  "description": {
+    "en": "EIDOS — Evolving Identity & Development Operating System. An experience-driven state engine for DeepSeek Harness.",
+    "zh": "EIDOS（Evolving Identity & Development Operating System）：让 AI 拥有可持久、可演化、可追溯内部状态的经历驱动引擎。"
+  },
+  "metadata": {
+    "categories": {
+      "state": {
+        "title": {
+          "en": "State Engines",
+          "zh": "状态引擎"
+        }
+      },
+      "memory": {
+        "title": {
+          "en": "Memory",
+          "zh": "记忆"
+        }
+      },
+      "agi": {
+        "title": {
+          "en": "AGI Architecture",
+          "zh": "AGI 架构探索"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-eidos",
+      "title": "EIDOS 状态引擎",
+      "description": {
+        "zh": "经历驱动的长期状态引擎：每条对话被记录为可核验的经历，情绪（PAD）、关系（信任）、学习（结论与建议）、人格（Trait 与影响实例池）随之演化，行为指导回注下一轮对话。全部变化可追溯、可审计、可重放。",
+        "en": "Experience-driven state engine: each conversation turn becomes a verified experience; emotion (PAD), relationships (trust), learning (conclusions/suggestions) and personality (traits + influence pool) evolve from it, and behavior guidance is injected into the next turn. Fully auditable and replayable."
+      },
+      "homepage": "https://github.com/Jebelhan/eidos-engine#readme",
+      "repository": {
+        "url": "https://github.com/Jebelhan/eidos-engine"
+      },
+      "metadata": {
+        "category": "state",
+        "keywords": [
+          "eidos",
+          "state",
+          "memory",
+          "emotion",
+          "personality",
+          "relationship",
+          "learning"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793458432,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "node": ">=20"
+          }
+        }
+      ]
+    }
+  ]
+}
