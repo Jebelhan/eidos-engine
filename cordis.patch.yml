@@ -1,0 +1,8 @@
+- insert:
+    - id: dsh-engine
+      name: dsh-engine
+      config:
+        dataDir: ''
+        pythonPath: ''
+        sendRawEvidence: true
+        testConsumer: true

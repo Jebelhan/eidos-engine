@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH Engine",
+    "description": "Persistent state engine for DSH: memory, emotion, relationship, behavior, personality and learning. P1 skeleton (host plugin + Python engine bridge)."
+  }
+}

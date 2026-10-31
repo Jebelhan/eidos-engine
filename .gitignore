@@ -1,0 +1,26 @@
+# 依赖与构建产物
+node_modules/
+dist/
+
+# 运行时数据（绝不入库）
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+data/
+.trace.log
+backup-*.sqlite
+
+# 本地环境
+.env
+.env.*
+*.local
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+
+# Python
+__pycache__/
+*.pyc

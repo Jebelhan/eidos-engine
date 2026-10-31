@@ -1,0 +1,38 @@
+{
+  "name": "dsh-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "title": "EIDOS 状态引擎",
+  "description": "EIDOS（Evolving Identity & Development Operating System）状态引擎：Cordis 宿主插件 + Python 状态引擎。",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/*.js",
+    "engine/python/**/*.py",
+    "cordis.patch.yml",
+    "lib/*.js",
+    "lib/prompts/**/*.md",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "smoke": "node tests/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
